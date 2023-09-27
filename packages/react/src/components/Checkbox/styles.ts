@@ -1,4 +1,4 @@
-import { keyframes, styled } from "../../styles";
+import { keyframes, styled } from '../../styles'
 import * as Checkbox from '@radix-ui/react-checkbox'
 
 export const CheckboxContainer = styled(Checkbox.Root, {

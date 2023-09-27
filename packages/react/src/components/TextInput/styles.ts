@@ -16,7 +16,7 @@ export const TextInputContainer = styled('div', {
       md: {
         padding: '$3 $4',
       },
-    }
+    },
   },
 
   '&:has(input:focus)': {
@@ -29,8 +29,8 @@ export const TextInputContainer = styled('div', {
   },
 
   defaultVariants: {
-    size: 'md'
-  }
+    size: 'md',
+  },
 })
 
 export const Prefix = styled('span', {

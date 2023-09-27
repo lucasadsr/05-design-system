@@ -4,7 +4,6 @@ import { useEffect, useRef, useState } from 'react'
 
 const DemoToast = (props: ToastProps) => {
   const [open, setOpen] = useState(false)
-
   const timerRef = useRef(0)
 
   useEffect(() => {
@@ -28,11 +27,11 @@ const DemoToast = (props: ToastProps) => {
 }
 
 export default {
-  title: 'Surfaces/Toast',
+  title: 'Form/Toast',
   component: DemoToast,
   args: {
     title: 'Agendamento realizado',
-    description: 'Sexta-feira, 16 de Fevereiro às 08h',
+    description: 'Quarta-feira, 23 de Outubro às 16h',
   },
   argTypes: {
     children: {

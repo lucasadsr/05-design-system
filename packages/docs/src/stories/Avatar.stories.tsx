@@ -6,14 +6,14 @@ export default {
   component: Avatar,
   args: {
     src: 'https://github.com/lucasadsr.png',
-    alt: 'Lucas Ribeiro'
+    alt: 'Lucas Ribeiro',
   },
   argTypes: {
     src: {
       control: {
-        type: 'text'
-      }
-    }
+        type: 'text',
+      },
+    },
   },
 } as Meta<AvatarProps>
 
@@ -21,6 +21,6 @@ export const Primary: StoryObj<AvatarProps> = {}
 
 export const withFallback: StoryObj<AvatarProps> = {
   args: {
-    src: undefined
-  }
+    src: undefined,
+  },
 }

@@ -1,5 +1,5 @@
 import { ComponentProps, ElementType } from 'react'
-import { styled } from "@stitches/react";
+import { styled } from '@stitches/react'
 
 export const Button = styled('button', {
   all: 'unset',
@@ -29,7 +29,7 @@ export const Button = styled('button', {
   },
 
   '&:focus': {
-    boxShadow: '0 0 0 2px $colors$gray100'
+    boxShadow: '0 0 0 2px $colors$gray100',
   },
 
   variants: {
